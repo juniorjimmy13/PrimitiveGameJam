@@ -1,0 +1,2568 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7829 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Games\Unity\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/OMEN 16/Desktop/GameJams/PrimitiveGameJam
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63880
+Successfully changed project path to: C:/Users/OMEN 16/Desktop/GameJams/PrimitiveGameJam
+C:/Users/OMEN 16/Desktop/GameJams/PrimitiveGameJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3724] Host "[IP] 192.168.100.54 [Port] 0 [Flags] 2 [Guid] 2742909712 [EditorId] 2742909712 [Version] 1048832 [Id] WindowsEditor(7,9-11-was-an-inside-job) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3724] Host "[IP] 192.168.100.54 [Port] 0 [Flags] 2 [Guid] 2742909712 [EditorId] 2742909712 [Version] 1048832 [Id] WindowsEditor(7,9-11-was-an-inside-job) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Games/Unity/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/OMEN 16/Desktop/GameJams/PrimitiveGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Games/Unity/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Games/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Games/Unity/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Games/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Games/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Games/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Games/Unity/2022.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.014686 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 448 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (734ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (578ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.904 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1496ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (594ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 4.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (329.7 KB). Loaded Objects now: 3651.
+Memory consumption went from 136.4 MB to 136.0 MB.
+Total: 3.232500 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.709900 ms  DeleteObjects: 0.194000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.380 seconds
+Domain Reload Profiling: 3109ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (301.9 KB). Loaded Objects now: 3654.
+Memory consumption went from 132.5 MB to 132.2 MB.
+Total: 5.678400 ms (FindLiveObjects: 0.326300 ms CreateObjectMapping: 0.277600 ms MarkObjects: 4.724700 ms  DeleteObjects: 0.346800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.377 seconds
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.373 seconds
+Domain Reload Profiling: 2748ms
+	BeginReloadAssembly (402ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (878ms)
+		LoadAssemblies (995ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.2 KB). Loaded Objects now: 3657.
+Memory consumption went from 134.5 MB to 134.2 MB.
+Total: 7.285500 ms (FindLiveObjects: 0.274900 ms CreateObjectMapping: 0.103400 ms MarkObjects: 6.397600 ms  DeleteObjects: 0.507800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.095 seconds
+Domain Reload Profiling: 1594ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1096ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.0 KB). Loaded Objects now: 3660.
+Memory consumption went from 136.4 MB to 136.1 MB.
+Total: 2.954900 ms (FindLiveObjects: 0.267600 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.327700 ms  DeleteObjects: 0.254100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 1592ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1115ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.1 KB). Loaded Objects now: 3663.
+Memory consumption went from 138.3 MB to 138.0 MB.
+Total: 5.779500 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.101400 ms MarkObjects: 5.160700 ms  DeleteObjects: 0.222300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.1 KB). Loaded Objects now: 3666.
+Memory consumption went from 140.3 MB to 140.0 MB.
+Total: 6.718800 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.100900 ms MarkObjects: 6.028400 ms  DeleteObjects: 0.315300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.458 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1272ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.2 KB). Loaded Objects now: 3669.
+Memory consumption went from 142.2 MB to 141.9 MB.
+Total: 2.660900 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.145500 ms  DeleteObjects: 0.177500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.0 KB). Loaded Objects now: 3672.
+Memory consumption went from 144.1 MB to 143.8 MB.
+Total: 4.119700 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.089000 ms MarkObjects: 3.483400 ms  DeleteObjects: 0.290900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.452 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.789 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.2 KB). Loaded Objects now: 3675.
+Memory consumption went from 146.0 MB to 145.7 MB.
+Total: 2.764500 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.093000 ms MarkObjects: 2.157100 ms  DeleteObjects: 0.257000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.323 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.223 seconds
+Domain Reload Profiling: 3554ms
+	BeginReloadAssembly (387ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (167ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (831ms)
+		LoadAssemblies (888ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.1 KB). Loaded Objects now: 3678.
+Memory consumption went from 147.9 MB to 147.7 MB.
+Total: 6.660600 ms (FindLiveObjects: 0.814900 ms CreateObjectMapping: 0.459800 ms MarkObjects: 4.829400 ms  DeleteObjects: 0.552800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.764 seconds
+Refreshing native plugins compatible for Editor in 6.00 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.640 seconds
+Domain Reload Profiling: 3406ms
+	BeginReloadAssembly (480ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1198ms)
+		LoadAssemblies (1303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.0 KB). Loaded Objects now: 3681.
+Memory consumption went from 149.9 MB to 149.6 MB.
+Total: 4.430500 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.082900 ms MarkObjects: 3.857900 ms  DeleteObjects: 0.215700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 1724ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.1 KB). Loaded Objects now: 3684.
+Memory consumption went from 151.8 MB to 151.5 MB.
+Total: 3.602100 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.196700 ms MarkObjects: 2.845600 ms  DeleteObjects: 0.196600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.820 seconds
+Domain Reload Profiling: 1278ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (820ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (302.3 KB). Loaded Objects now: 3687.
+Memory consumption went from 153.7 MB to 153.4 MB.
+Total: 3.446200 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.698500 ms  DeleteObjects: 0.216500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76386.776824 seconds.
+  path: Assets/Behaviours/BasicCubeEnemy.asset
+  artifactKey: Guid(4f8b529d1e3869a44b429a3a5460ca45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Behaviours/BasicCubeEnemy.asset using Guid(4f8b529d1e3869a44b429a3a5460ca45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13c886093325143248df29ac0a1d5ad8') in 1.722080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gun Objects/Shotgun.asset
+  artifactKey: Guid(736e28e1a8acdb045a7c2102bf20a72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gun Objects/Shotgun.asset using Guid(736e28e1a8acdb045a7c2102bf20a72e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f45f12a834a39227f0811decfb700577') in 0.048971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FSP/MAST/Images/Palette_Item_Light_Active.png
+  artifactKey: Guid(ff06d9d793cf4ca46842a6d2be994e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Palette_Item_Light_Active.png using Guid(ff06d9d793cf4ca46842a6d2be994e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fec74608faf94116adac2c7a07e7b7b') in 0.204083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FSP/MAST/Images/Axis_Y.png
+  artifactKey: Guid(941ef3c53ad7ad34c94e413dce5fcfaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Axis_Y.png using Guid(941ef3c53ad7ad34c94e413dce5fcfaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa84d8436e156a27181882cbf9ea5a03') in 0.070879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Player/MoveCamera.cs
+  artifactKey: Guid(1e6291a75bda1724eb85f56f6c952792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Player/MoveCamera.cs using Guid(1e6291a75bda1724eb85f56f6c952792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89158b507a739be37d1329b2d58e1eee') in 0.033263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FSP/MAST/Images/Tools.png
+  artifactKey: Guid(79a2b04ed9c58db43874ad065a3de077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Tools.png using Guid(79a2b04ed9c58db43874ad065a3de077) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c293534678ffcde8a3741aeb79bf5c3') in 0.066654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FSP/Outlined Primitives/terrain_corner_center.fbx
+  artifactKey: Guid(7c49789b5dfdcf342b91cef35e4a82c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/terrain_corner_center.fbx using Guid(7c49789b5dfdcf342b91cef35e4a82c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdafed82fa50681447a286f3c4d4723a') in 0.253802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gun/MainGun.mat
+  artifactKey: Guid(aff2857e201b92a42b2bc80abb0270ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Gun/MainGun.mat using Guid(aff2857e201b92a42b2bc80abb0270ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b30f18a9eb727c4384c669dc8eccc5f') in 0.029593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/FSP/Outlined Primitives/terrain_ramp.fbx
+  artifactKey: Guid(2a787d4daf6854549b0e5eb2df68b5ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/terrain_ramp.fbx using Guid(2a787d4daf6854549b0e5eb2df68b5ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67451ce1593a96348e07c10d92893624') in 0.063627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FSP/MAST/Etc/Prefab_Eraser.prefab
+  artifactKey: Guid(f6b3efa38041d4a40b48aa24fa3eb6cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/Prefab_Eraser.prefab using Guid(f6b3efa38041d4a40b48aa24fa3eb6cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23cd8c09d23c15f8d3314011f7755044') in 0.050739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FSP/MAST/Images/Cleaning_Brush.png
+  artifactKey: Guid(42327a1e211d7c143b5feb7b1772e6e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Cleaning_Brush.png using Guid(42327a1e211d7c143b5feb7b1772e6e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2e4a7bf3aad3bf322a98628da919dcc') in 0.042080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Pillar Base.asset
+  artifactKey: Guid(40c215ffc0308de48b269153932e4b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Pillar Base.asset using Guid(40c215ffc0308de48b269153932e4b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '261cfa48e8878f22c967f6b6fe62eec2') in 0.046691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Grass Hill Straight.asset
+  artifactKey: Guid(3d643cbc3bec6f54a992c548686aab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Grass Hill Straight.asset using Guid(3d643cbc3bec6f54a992c548686aab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02b1577d8755acad213f880137a5cf98') in 0.051490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FSP/MAST/Etc/Prefab_Preview_Camera.prefab
+  artifactKey: Guid(b9035d3e14cfd0948b1d2a5a6229b11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/Prefab_Preview_Camera.prefab using Guid(b9035d3e14cfd0948b1d2a5a6229b11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae57bb9e6d39c52cfb29e550f2d6a580') in 0.044531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Boulder.asset
+  artifactKey: Guid(8de204b3de335854493d3b320d4f2414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Boulder.asset using Guid(8de204b3de335854493d3b320d4f2414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e38d84e8bcd218024370b175668cfc2d') in 0.042562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FSP/MAST/ProjectBuildErrors.txt
+  artifactKey: Guid(ceb25f65417a0c540932bc51f388d337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/ProjectBuildErrors.txt using Guid(ceb25f65417a0c540932bc51f388d337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f35f9e260115c1f76d67dd737aad41d3') in 0.029189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0afb38dda80934844808b4814c8e446e') in 0.046302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Tree Point Down.asset
+  artifactKey: Guid(247ac9b9e0a2dc84b8ad9366bb062363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Tree Point Down.asset using Guid(247ac9b9e0a2dc84b8ad9366bb062363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aa8207e4fccef9c5378260279041975') in 0.060219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ef33d23850ad129a47f3a024099fd77') in 0.026489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FSP/MAST/Images/Half_Button_BG_Active.png
+  artifactKey: Guid(029f6b730b7069c48aea5255b9de8e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Half_Button_BG_Active.png using Guid(029f6b730b7069c48aea5255b9de8e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37586dd6e248428a3a01746db9a72a72') in 0.055170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Dirt Ramp.asset
+  artifactKey: Guid(18a868b487d349140b3619f66c583b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Dirt Ramp.asset using Guid(18a868b487d349140b3619f66c583b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd85a9c29001f6d4f34b6ce04bd199135') in 0.054049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FSP/MAST/Images/Button_BG_Active.png
+  artifactKey: Guid(625a3e36ce92a3b49a7ad4f8d2413a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Button_BG_Active.png using Guid(625a3e36ce92a3b49a7ad4f8d2413a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '936bf0d32f6ed7237ce9c41a38a6ac60') in 0.044389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/FSP/MAST/Etc/Shader_Eraser_URP.shader
+  artifactKey: Guid(785f66d338b0b344ea2b793cd343b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/Shader_Eraser_URP.shader using Guid(785f66d338b0b344ea2b793cd343b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77ea75e284d723c1be611d72780bfc9f') in 0.032024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91195db57e142f121714dc32cb4d4dad') in 0.018013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97debd3e23bdeb12128c3d16f7c96739') in 0.016853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5744e52d700d363cc5e950171992c830') in 0.037574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FSP/MAST/Etc/GUISkin.guiskin
+  artifactKey: Guid(437477f7b85afae4a9711ce90320fb8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/GUISkin.guiskin using Guid(437477f7b85afae4a9711ce90320fb8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a124c7ec6b6d0bbbe79f0450a8f2e703') in 0.105302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58a7edb59268efac62488008faec1c35') in 0.018418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45769c2aec0ac27a5e81d21aaa59e153') in 0.015706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cc9f014cbd0697c05b12ccea387e349') in 0.070327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5e3ea64b77e2755296296530a9d831c') in 0.011426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FSP/MAST/Images/Palette_Item_Light_Normal.png
+  artifactKey: Guid(df44243ad61fd82489260aa2301f80fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Palette_Item_Light_Normal.png using Guid(df44243ad61fd82489260aa2301f80fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd00b46c831cc2e2d90f22e26458f2d35') in 0.032295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Fence Rail.asset
+  artifactKey: Guid(777f4725f2d67b749b57588618f9f8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Fence Rail.asset using Guid(777f4725f2d67b749b57588618f9f8f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '346fe4c03ab958b441128c30a82c99d4') in 0.021451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011144 seconds.
+  path: Assets/FSP/MAST/Images/Paint_Roller.png
+  artifactKey: Guid(070c40f3199269c41b178d71b2cda2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Paint_Roller.png using Guid(070c40f3199269c41b178d71b2cda2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06fc0928ad598ed4dd9c49d826feef64') in 0.026595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FSP/MAST/Demo Scenes/MAST Demo Scene.unity
+  artifactKey: Guid(d15301a1eac5c5b4185a4fc6f837a578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Demo Scenes/MAST Demo Scene.unity using Guid(d15301a1eac5c5b4185a4fc6f837a578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d1dea43c49bd4dbf3c1aedb056b378a') in 0.013706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FSP/MAST/Scripts/Enum.cs
+  artifactKey: Guid(bf653fb2ac5950a46964ce7f2fef6539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/Enum.cs using Guid(bf653fb2ac5950a46964ce7f2fef6539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aac04422348c3821b5a7959b18cdf6e1') in 0.013360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FSP/MAST/Images/Grid_Down.png
+  artifactKey: Guid(02d19a7c87ff5404cb154b10547f558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Grid_Down.png using Guid(02d19a7c87ff5404cb154b10547f558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '573c260d8e34bcbe42cbb0a9eac5cb7d') in 0.027760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Outlined Primitives/Background.mat
+  artifactKey: Guid(0e269733f3de9fe459f3b6a34c922f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Background.mat using Guid(0e269733f3de9fe459f3b6a34c922f32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96f2c608722a0ce619ca8c06575b8b9c') in 0.016408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/MAST/Etc/Material_PaintArea.mat
+  artifactKey: Guid(93895cd4a8151c049a6eeaa3451665e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/Material_PaintArea.mat using Guid(93895cd4a8151c049a6eeaa3451665e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a6a673001594a05dd2f38e762ff6e79') in 0.016656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/FSP/MAST/Images/Palette_Item_Light_Hover.png
+  artifactKey: Guid(bef1d3da4ee608146925978ad6e4e892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Palette_Item_Light_Hover.png using Guid(bef1d3da4ee608146925978ad6e4e892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1054548a40b969fa9587f86310878bb6') in 0.031317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FSP/MAST/Images/Axis_X.png
+  artifactKey: Guid(ccf6af274cc9bf34baf9d9094d169ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Axis_X.png using Guid(ccf6af274cc9bf34baf9d9094d169ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87ff8b1f7eff766aca500bc409975a50') in 0.029797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Fence Post.asset
+  artifactKey: Guid(c13e7a1e670e3b849b0e2af9c8e75aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Fence Post.asset using Guid(c13e7a1e670e3b849b0e2af9c8e75aae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7620532fe0af2e3c965f3ac50bf6cb6f') in 0.022611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Pillar Center.asset
+  artifactKey: Guid(cc38d8df6177a724fb7805f14a145adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Pillar Center.asset using Guid(cc38d8df6177a724fb7805f14a145adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '515d8449c7e6349d0b730f5498e58776') in 0.016077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/MAST/readme.txt
+  artifactKey: Guid(4d63fed9bb2453a43b4994d45aa686c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/readme.txt using Guid(4d63fed9bb2453a43b4994d45aa686c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46cd0a503f810d1c41d1a8b29efd97a4') in 0.016908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FSP/MAST/Images/Half_Button_BG_Hover.png
+  artifactKey: Guid(69d6169718ede474a93cc5190324d0e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Half_Button_BG_Hover.png using Guid(69d6169718ede474a93cc5190324d0e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69eec68e8174967982e5689096627131') in 0.032258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Outlined Primitives/terrain_cube.fbx
+  artifactKey: Guid(eed829dcda046b94bbddeaf5de9f82ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/terrain_cube.fbx using Guid(eed829dcda046b94bbddeaf5de9f82ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6114b43d4586124da49df75c7dea8611') in 0.026878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FSP/MAST/Images/Separator.png
+  artifactKey: Guid(3f4040e70fc0ba0408d6329594cd4b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Separator.png using Guid(3f4040e70fc0ba0408d6329594cd4b0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c85d35b86f071adf2a8fc874431fe7f9') in 0.035639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/FSP/MAST/URPConversion.txt
+  artifactKey: Guid(1a7ea792a2f476e48acbe784e24da12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/URPConversion.txt using Guid(1a7ea792a2f476e48acbe784e24da12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a7031da66965a76eec9095e8d96a611') in 0.016150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FSP/MAST/Etc/CoreSettings.asset
+  artifactKey: Guid(49f3e0054eeed5a4fb0d6bfef6ab5253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Etc/CoreSettings.asset using Guid(49f3e0054eeed5a4fb0d6bfef6ab5253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c822d5ab1ebacb9b950f01e29567b04a') in 0.037434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FSP/MAST/Images/Button_BG_Hover.png
+  artifactKey: Guid(9353d8d9a1e8f464faf200896fa138f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Button_BG_Hover.png using Guid(9353d8d9a1e8f464faf200896fa138f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '580d52f1728a55e00c03d1dc333073d3') in 0.023674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FSP/MAST/Images/Toolbar_BG.png
+  artifactKey: Guid(598c776f6a5206d478def408f8f606fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Toolbar_BG.png using Guid(598c776f6a5206d478def408f8f606fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6ec5469d0b2f5e49cb56c6d35bde582') in 0.039114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FSP/MAST/Images/Button_Standard_Hover.png
+  artifactKey: Guid(ad453e3defc75684d8f7ad8818672f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Button_Standard_Hover.png using Guid(ad453e3defc75684d8f7ad8818672f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69857f7e87f234d532df3059a19b3fea') in 0.032816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FSP/MAST/Images/Flip.png
+  artifactKey: Guid(4beb72327fbfa9a46abd31e73ccb96ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Images/Flip.png using Guid(4beb72327fbfa9a46abd31e73ccb96ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ff3238b202ff77cfe58e57ae9184b1c') in 0.038295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ec0cbfe1cdd4c4b04f8382624b6c898') in 0.017560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/FSP/MAST/updates.txt
+  artifactKey: Guid(61bd439edf5883c489b054c9109cc5a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/updates.txt using Guid(61bd439edf5883c489b054c9109cc5a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8551d6231cec69e8928a7ab9c4fe709b') in 0.018383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.558489 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Meshes/mesh_Water.asset
+  artifactKey: Guid(be6f3ec8e04a07b4fb3e02c9ca5817c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Meshes/mesh_Water.asset using Guid(be6f3ec8e04a07b4fb3e02c9ca5817c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31693b78038e047a0f79ec79a45c324b') in 0.028306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69454e3771e1137934bc18b97d999eab') in 0.052279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/Boulder.mat
+  artifactKey: Guid(ec5c522c89971374d9fade62781b3117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/Boulder.mat using Guid(ec5c522c89971374d9fade62781b3117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0fc7ed72a61497165a165f04f4a5772') in 0.020638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FSP/MAST/Demo Scenes/MAST Demo Scene/LightingData.asset
+  artifactKey: Guid(95d50b7789256364f82c10068931b47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Demo Scenes/MAST Demo Scene/LightingData.asset using Guid(95d50b7789256364f82c10068931b47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a3a6730d523ca04798be917a082473') in 0.021550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Monkey.mat
+  artifactKey: Guid(e7b97d331960f4e41a0bcba2b27a13b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Monkey.mat using Guid(e7b97d331960f4e41a0bcba2b27a13b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a8bda2942d81fed062d9f928339d142') in 0.044294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Up Red.mat
+  artifactKey: Guid(aeb50d1656cf6b5449bbbcec26b61c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Up Red.mat using Guid(aeb50d1656cf6b5449bbbcec26b61c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb09ac22fee4141f324eeb2c50ca882f') in 0.041181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/Crate Snow.mat
+  artifactKey: Guid(dbf3d8a3a40a1764b83f0b65ce0eded9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/Crate Snow.mat using Guid(dbf3d8a3a40a1764b83f0b65ce0eded9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75a0730da540ba4a86e9b8bdf8e0ca19') in 0.025918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Tree Trunk Oak.mat
+  artifactKey: Guid(8ad7a7ec59ed9084189112ac60f396c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Tree Trunk Oak.mat using Guid(8ad7a7ec59ed9084189112ac60f396c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa44d55689e2b854e6a67a4392e7ae13') in 0.041791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Snake.mat
+  artifactKey: Guid(998f85e97b8a0ef43825d455693d40aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Snake.mat using Guid(998f85e97b8a0ef43825d455693d40aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '069a4fa82d3da2ef1c0aba777c2fc05b') in 0.041802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Down Green.mat
+  artifactKey: Guid(f79177218f59a2c488f0e57d2b1b283a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Down Green.mat using Guid(f79177218f59a2c488f0e57d2b1b283a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bff8cd10faf5e480ed89e1d6c66d8079') in 0.042293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Down Pink.mat
+  artifactKey: Guid(d07f6a337ec4da848acc44561bb4ab52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Down Pink.mat using Guid(d07f6a337ec4da848acc44561bb4ab52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5699fd7a964a4dd96fa61a9fd43b284') in 0.042053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/Sign Arrow.mat
+  artifactKey: Guid(e2956cf06e3662348b81cdbd1b458a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/Sign Arrow.mat using Guid(e2956cf06e3662348b81cdbd1b458a0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bee21299ff574db6df5a3f5f5bc17e72') in 0.030879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/terrain_ramp.prefab
+  artifactKey: Guid(ac425dba1a9d0934f9b2ce03498533df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/terrain_ramp.prefab using Guid(ac425dba1a9d0934f9b2ce03498533df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b85b282906317565f752297e406e29b') in 0.028569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/Gray.mat
+  artifactKey: Guid(d5a557b43a43ca44b87dcd2ea8c5f932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/Gray.mat using Guid(d5a557b43a43ca44b87dcd2ea8c5f932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4375ba978270d7aea182cf462bd804fe') in 0.025901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/MAST/Scripts/Tools/PrefabCreator.cs
+  artifactKey: Guid(41dcd96726baa854bb18d81fc2baf616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/Tools/PrefabCreator.cs using Guid(41dcd96726baa854bb18d81fc2baf616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd081958b7b0131879414a237d6a32cec') in 0.020955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FSP/MAST/Scripts/Building/Visualizer.cs
+  artifactKey: Guid(dc475ef7bb5da374b8aaa34bd67c98b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/Building/Visualizer.cs using Guid(dc475ef7bb5da374b8aaa34bd67c98b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eae95f94e0624651f8786494f8d0b78c') in 0.015290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves sphere snow.png
+  artifactKey: Guid(f8f05233ff7625445a08ac89488a10ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves sphere snow.png using Guid(f8f05233ff7625445a08ac89488a10ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3abe9bced493b6433d049d1392d972d1') in 0.050896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt block snow.png
+  artifactKey: Guid(77feb19dd7a90e44c9cb7592c452c2bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt block snow.png using Guid(77feb19dd7a90e44c9cb7592c452c2bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4084946096c842b0b0762b2273fadfec') in 0.038042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/grass hill straight snow.png
+  artifactKey: Guid(ea328ad53e1ac534f946a74e5498ec04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/grass hill straight snow.png using Guid(ea328ad53e1ac534f946a74e5498ec04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48c18ab6fa6cde40c7855dfc5daa19ae') in 0.046063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down red.png
+  artifactKey: Guid(bde4ef48567990944984017b3740550f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down red.png using Guid(bde4ef48567990944984017b3740550f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47192a50a9c656548061f46b38044141') in 0.038583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar snake.png
+  artifactKey: Guid(f79bcf2a367093e43bc03f7b3f88ad29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar snake.png using Guid(f79bcf2a367093e43bc03f7b3f88ad29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ae72a40374c9a1dbbc92ef79c9bbd7b') in 0.037055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/fence post snow.png
+  artifactKey: Guid(277e27749171f214cabcc9d21d6a2833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/fence post snow.png using Guid(277e27749171f214cabcc9d21d6a2833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3c73063d9d640085ee6e180407a897c') in 0.048592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/fence rail snow.png
+  artifactKey: Guid(1582d47cfe52cb949bc3ae07c8aa4291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/fence rail snow.png using Guid(1582d47cfe52cb949bc3ae07c8aa4291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e86d88be96f94c72b3095a31b82e912b') in 0.038326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Block Snow.mat
+  artifactKey: Guid(d3bd69ceb07dbb24ba6c0cfa385c2765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Block Snow.mat using Guid(d3bd69ceb07dbb24ba6c0cfa385c2765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f3de7626ea4049dcfb6968a2065a5b3') in 0.041191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/Temple Steps Snow.mat
+  artifactKey: Guid(28fee41451d94674f84fc8fdf2a36b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/Temple Steps Snow.mat using Guid(28fee41451d94674f84fc8fdf2a36b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e14debc4fff4cd3aa443dae3ac2d9ada') in 0.041018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '887dfd820df34680ad942dcfad8ea47e') in 0.043351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/sign help.png
+  artifactKey: Guid(8ba50edf2d77afb41be5aa7c7ec821a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/sign help.png using Guid(8ba50edf2d77afb41be5aa7c7ec821a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '406489aba7c32ff3cb0c6801055f8cb7') in 0.045576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Bottom.mat
+  artifactKey: Guid(da5fcb1c80b478b4d83d837ead5c08c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/Pillar Bottom.mat using Guid(da5fcb1c80b478b4d83d837ead5c08c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef9c2e3ff3d6814126dc475c2e81fcb') in 0.048863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down green.png
+  artifactKey: Guid(3f15857cf6dee3f4eabc40bbd29a65a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down green.png using Guid(3f15857cf6dee3f4eabc40bbd29a65a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21951cfe98fc24a45819541cac09103d') in 0.040411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Gray.png
+  artifactKey: Guid(71fcd0280b1a07848b9732721b6b58e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Gray.png using Guid(71fcd0280b1a07848b9732721b6b58e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '575d4b3c4b47c8694237577bdd37a8c7') in 0.039750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_ramp.png
+  artifactKey: Guid(5099719c967ad4f4f997f5cb860e6c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_ramp.png using Guid(5099719c967ad4f4f997f5cb860e6c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '920951fb4e9ba008df0f6584abc20818') in 0.061047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_corner_top.png
+  artifactKey: Guid(1f2e6a6808059ae42bc74a1c78152f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_corner_top.png using Guid(1f2e6a6808059ae42bc74a1c78152f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '999c0dd6deb8c499f409ce1e0469f872') in 0.061732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Breakpoint.cs
+  artifactKey: Guid(852757773078fc640852fe0cc71ae9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Breakpoint.cs using Guid(852757773078fc640852fe0cc71ae9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88e1f7159e8eab054fc38b6a0be85723') in 0.026240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Log.cs
+  artifactKey: Guid(df9e411f4095d0a44acd9a25323f5e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Log.cs using Guid(df9e411f4095d0a44acd9a25323f5e73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77d6e0112d46325c1ba41f55e448d833') in 0.022895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/Grass Hill Straight.prefab
+  artifactKey: Guid(02ffa1243b833f54bac29cbd726cf4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/Grass Hill Straight.prefab using Guid(02ffa1243b833f54bac29cbd726cf4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd108113e5389710592cb86f7138dc5a3') in 0.051619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt block.png
+  artifactKey: Guid(fc98f48e419d5eb419233031760004f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt block.png using Guid(fc98f48e419d5eb419233031760004f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7450e8fe9d183443ef6682c10f02c7fa') in 0.038743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/temple block center snow.png
+  artifactKey: Guid(486c738e3eb85dc4c88a714f33d22697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/temple block center snow.png using Guid(486c738e3eb85dc4c88a714f33d22697) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e3cdc7887e03da26659cddaed072dad') in 0.054906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/MoveToPosition.cs
+  artifactKey: Guid(4489e3e257543504c8fc9f891246af6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/MoveToPosition.cs using Guid(4489e3e257543504c8fc9f891246af6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '951dd14223465ab93205748c9757bc15') in 0.026543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/UIBuilder/BehaviourTreeEditor.uxml
+  artifactKey: Guid(12f41ec3b5735b747a38daddd0ffefd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/UIBuilder/BehaviourTreeEditor.uxml using Guid(12f41ec3b5735b747a38daddd0ffefd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3087a6b61fa4c34b7a016582a54cee6') in 0.081459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Up Green.mat
+  artifactKey: Guid(00b091be6b2e5c646acfb4402f45fd5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Point Up Green.mat using Guid(00b091be6b2e5c646acfb4402f45fd5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2539a34ecdabf432b4f5b0ddfd7a47bc') in 0.041197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar base.png
+  artifactKey: Guid(c46098ee476da9645be1d0bed0c54e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar base.png using Guid(c46098ee476da9645be1d0bed0c54e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d41ee6715e17a2bea7680d38b12fce0') in 0.043066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Editor/BehaviourTreeEditor.cs
+  artifactKey: Guid(30f27e776c88e27458a220f32156c7c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Editor/BehaviourTreeEditor.cs using Guid(30f27e776c88e27458a220f32156c7c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c37101d0d6ba474ff74af5b517e20f00') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/DecoratorNode.cs
+  artifactKey: Guid(4d397583b570c804c96da4501ca2f368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/DecoratorNode.cs using Guid(4d397583b570c804c96da4501ca2f368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8322b09101a0bae748421cb80d271f43') in 0.020490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/CompositeNode.cs
+  artifactKey: Guid(5dfaae63146b79149ba1154320e664a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/CompositeNode.cs using Guid(5dfaae63146b79149ba1154320e664a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebe5711afa7f4c7bd045cb6982e733e0') in 0.027245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Wait.cs
+  artifactKey: Guid(1a5134d9de14153468b48928d3e7359a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Actions/Wait.cs using Guid(1a5134d9de14153468b48928d3e7359a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd6c889302eea32dd8c6888cf17dbf0d') in 0.027492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/ActionNode.cs
+  artifactKey: Guid(2db6087bb41477f478144490f9d18966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/ActionNode.cs using Guid(2db6087bb41477f478144490f9d18966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61876917ee5feafac7737fe79e2849b7') in 0.020832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Decorators/Repeat.cs
+  artifactKey: Guid(afb5496e8cd973748a10b3e3ef436ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Decorators/Repeat.cs using Guid(afb5496e8cd973748a10b3e3ef436ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ee0deaffe0a2543f7d437348d64adea') in 0.020505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/NodePort.cs
+  artifactKey: Guid(e100659ff713da64782482f632efd372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Runtime/NodePort.cs using Guid(e100659ff713da64782482f632efd372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcb359678945de889a336416bdd83461') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/Shader/Unlit Tinted Texture.shader
+  artifactKey: Guid(d08ed6770f717ad47a02c261eb8b14e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/Shader/Unlit Tinted Texture.shader using Guid(d08ed6770f717ad47a02c261eb8b14e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c2a5ed0215e38b3eafe479dfa168938') in 0.028874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FSP/MAST/Scripts/Painting/GUI/Toolbar.cs
+  artifactKey: Guid(456c0bd83e6fbf5408d4093453cfb283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/Painting/GUI/Toolbar.cs using Guid(456c0bd83e6fbf5408d4093453cfb283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f05aeffb4db7b965c7c3186710244221') in 0.024241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/grass block green.png
+  artifactKey: Guid(51c8b13f8c077f94f9808a2fa4c031da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/grass block green.png using Guid(51c8b13f8c077f94f9808a2fa4c031da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2939be5df0c16183540d92c28f031d42') in 0.043601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/grass hill corner outer fall.png
+  artifactKey: Guid(bfc8bd211490dca4a8717088876b411a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/grass hill corner outer fall.png using Guid(bfc8bd211490dca4a8717088876b411a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f38e8587cf9b0e7f49fb4de78dfcccd7') in 0.049943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/Texture/outlined primitives.png
+  artifactKey: Guid(21e020d0e27b2694eb9a6129ef7f7ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/Texture/outlined primitives.png using Guid(21e020d0e27b2694eb9a6129ef7f7ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0096e3a52e652bb490a0f8ea04a8cb3b') in 0.038058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/fence rail.png
+  artifactKey: Guid(b9eab6eb674cf6243b2b209d13f6edea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/fence rail.png using Guid(b9eab6eb674cf6243b2b209d13f6edea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e66f72af9529b3a22de4bf19104b8bb4') in 0.042979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_side.png
+  artifactKey: Guid(f53552d24f7debc4f9622a90fc24e498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/_MAST_Thumbnails/terrain_side.png using Guid(f53552d24f7debc4f9622a90fc24e498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bb013320a65387272ab47d85e8789ce') in 0.041113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/Scripts/Editor/SplitView.cs
+  artifactKey: Guid(6948cf0837281464fa0135008213c609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/Scripts/Editor/SplitView.cs using Guid(6948cf0837281464fa0135008213c609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47de510b7c2427d4eb9506d839d0dcdd') in 0.022437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Pillar Center.prefab
+  artifactKey: Guid(ca18888df5c4b0348a32ba2257d9c155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Pillar Center.prefab using Guid(ca18888df5c4b0348a32ba2257d9c155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23748d8c70ba3632897377dd207454b4') in 0.032466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Purple.png
+  artifactKey: Guid(22616c6447c8df54c8c2946c9e28a75a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Purple.png using Guid(22616c6447c8df54c8c2946c9e28a75a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdc1bb7546ee9a3f3ffe2f5f4c695a4f') in 0.032697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Temple Steps.prefab
+  artifactKey: Guid(541deca0278571d4bbf93f38cd3de481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Temple Steps.prefab using Guid(541deca0278571d4bbf93f38cd3de481) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5051843e4140527c2f24a0bbfb22c2d8') in 0.031483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FSP/MAST/Scripts/Settings/ScriptObj/Hotkey.cs
+  artifactKey: Guid(8892eee62708edc4e8ecf96da9eb7d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/Settings/ScriptObj/Hotkey.cs using Guid(8892eee62708edc4e8ecf96da9eb7d21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ad5c475af6fe6526d0fe0188602102b') in 0.019687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Fence Rail.png
+  artifactKey: Guid(3316c6f4d97f63342afebd5848a966bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Fence Rail.png using Guid(3316c6f4d97f63342afebd5848a966bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e8f32a2684f3a17184edf7cdcf13d21') in 0.049385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Sphere Gold.png
+  artifactKey: Guid(44bedaba3fc9ee347b1498e016ecfa61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Sphere Gold.png using Guid(44bedaba3fc9ee347b1498e016ecfa61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd0a78b45fe6cd0aeaab80c307f3d3e') in 0.050212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Temple Steps.png
+  artifactKey: Guid(62759f664d3776c4cb421c2a5772b972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Temple Steps.png using Guid(62759f664d3776c4cb421c2a5772b972) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fdc231f855fd006e3f70990b46161cb') in 0.050000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Point Down Gold.png
+  artifactKey: Guid(b26dfcf24da3374499b6a1ec0342b131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Point Down Gold.png using Guid(b26dfcf24da3374499b6a1ec0342b131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e245b17cfe0b748f8123e8b4615de2b') in 0.047980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Sign Blank.png
+  artifactKey: Guid(e48848b34ef26da449948ede6a4091e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Sign Blank.png using Guid(e48848b34ef26da449948ede6a4091e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45e6524e5b76c10cc0cb61cb04b856e7') in 0.047073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Dirt Block Snow.png
+  artifactKey: Guid(dacbd8edd2b017c4e8aaf8ce8c18fdff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Dirt Block Snow.png using Guid(dacbd8edd2b017c4e8aaf8ce8c18fdff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '336e6a9ffa78c5eb53effbf32c9f75eb') in 0.045791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Monkey.png
+  artifactKey: Guid(a4b7ea17841797143af966dd0f92a465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Monkey.png using Guid(a4b7ea17841797143af966dd0f92a465) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab699ef0dba7b899974b873e7d18e721') in 0.046129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Point Up Snow.png
+  artifactKey: Guid(80a1b76b75bee154b8b1bea7bb73e815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Point Up Snow.png using Guid(80a1b76b75bee154b8b1bea7bb73e815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b13d07e2d72e82c318bcfa963ba5ef39') in 0.051809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Top Snow.png
+  artifactKey: Guid(b439263caba86864eb5e996239be3d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Top Snow.png using Guid(b439263caba86864eb5e996239be3d1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd764988200555033f5138a027b29a361') in 0.048637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Sphere Red.png
+  artifactKey: Guid(5c2d749474c5c994bbfaba927574dfb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/_MAST_Thumbnails/Leaves Sphere Red.png using Guid(5c2d749474c5c994bbfaba927574dfb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9497a07ee99a0d8d0ce22802256d7a55') in 0.034688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Temple Block.png
+  artifactKey: Guid(56c9afe5b21e59d4481fc449265c7b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Temple Block.png using Guid(56c9afe5b21e59d4481fc449265c7b30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00a9b2a106c31ab6edec4c91d84dacc3') in 0.045181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Pillar Base.png
+  artifactKey: Guid(c0f8f0a2721a7ba4daef4d7890888975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Pillar Base.png using Guid(c0f8f0a2721a7ba4daef4d7890888975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0700ef602922182f6315a0b2b082e648') in 0.053712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Outer Green.png
+  artifactKey: Guid(58f1280ce18236a4385ccdded10d1763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Outer Green.png using Guid(58f1280ce18236a4385ccdded10d1763) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '827951bb93a4cb9416c570e482f5d3e5') in 0.052596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Props/_MAST_Thumbnails/Crate.png
+  artifactKey: Guid(88f16d0f4f1225e4eb1b8a46d6002b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Props/_MAST_Thumbnails/Crate.png using Guid(88f16d0f4f1225e4eb1b8a46d6002b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3544f3e9351545a4a9def270d500059a') in 0.050006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Temple Block Center.png
+  artifactKey: Guid(c1c5111cef8fb22409016cda1e85debb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Temple Block Center.png using Guid(c1c5111cef8fb22409016cda1e85debb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f07c1343d194bd045577df061b1617e') in 0.052416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Pillar Center.png
+  artifactKey: Guid(09399028f5f4f0b449f8875780620f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/_MAST_Thumbnails/Pillar Center.png using Guid(09399028f5f4f0b449f8875780620f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5a768ff577b80f9934724b3c91b3b1f') in 0.047423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Foliage/_MAST_Thumbnails/Tree Point Up.png
+  artifactKey: Guid(6ace376c4b970ee41a3a307fac4defee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Foliage/_MAST_Thumbnails/Tree Point Up.png using Guid(6ace376c4b970ee41a3a307fac4defee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a3ac5f22fa363c556bb6e7ba64c8d09') in 0.044601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Boulder Snow.png
+  artifactKey: Guid(9e5b9e6e802d70b4fba2b200a536ae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/_MAST_Thumbnails/Boulder Snow.png using Guid(9e5b9e6e802d70b4fba2b200a536ae33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5953961350987fdeff4116f0647e4d3a') in 0.044568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Block Snow.png
+  artifactKey: Guid(27077e2464bb74348935064dd8923711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Block Snow.png using Guid(27077e2464bb74348935064dd8923711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2275c4eb4c5f973319c32c609568ab0') in 0.048884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/_MAST_Thumbnails/Dirt Block.png
+  artifactKey: Guid(43259fa7b6fa407409eb95c5ea45e4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/_MAST_Thumbnails/Dirt Block.png using Guid(43259fa7b6fa407409eb95c5ea45e4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd89ce3e33330c847d5ca00eb4afc0a3') in 0.049907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/crate.png
+  artifactKey: Guid(4d72941abc7f257499766e993d315ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/crate.png using Guid(4d72941abc7f257499766e993d315ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a2d35731907a50500cb031ddf0650f5') in 0.038731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/Prefabs/_MAST_Thumbnails/terrain_corner_center.png
+  artifactKey: Guid(2c8dd5235be67ef42898da757bdfb25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/Prefabs/_MAST_Thumbnails/terrain_corner_center.png using Guid(2c8dd5235be67ef42898da757bdfb25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c379b1573b2f78e8cb5d6618115cd54') in 0.037329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/Prefabs/_MAST_Thumbnails/terrain_corner_top.png
+  artifactKey: Guid(9d46f4f732a5e9a4097f3fdfbc8a7a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/Prefabs/_MAST_Thumbnails/terrain_corner_top.png using Guid(9d46f4f732a5e9a4097f3fdfbc8a7a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17a030b14ce67892ffbe6c5f0fe2e8f9') in 0.030117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/_MAST_Thumbnails/Grass Hill Straight.png
+  artifactKey: Guid(72f279e6321c6014ea96a27e5b58226c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/_MAST_Thumbnails/Grass Hill Straight.png using Guid(72f279e6321c6014ea96a27e5b58226c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2919018ab48202383a6a79a40314103b') in 0.032419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Sphere Green.mat
+  artifactKey: Guid(64528f61cdb4977458013c455394aac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Leaves Sphere Green.mat using Guid(64528f61cdb4977458013c455394aac6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63c642b60e0e747655777e4efa09413c') in 0.029446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Ramp Snow.mat
+  artifactKey: Guid(6d04fdcff54fd374c93aa244f8e21bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Ramp Snow.mat using Guid(6d04fdcff54fd374c93aa244f8e21bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58713df6fc26d60a2bd88d986588468a') in 0.029090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar bottom snow.png
+  artifactKey: Guid(ccddbed62e45b8c4fafcff9d4d31eaec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/pillar bottom snow.png using Guid(ccddbed62e45b8c4fafcff9d4d31eaec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b08ea42bc2bfcead1ba7831250bb786') in 0.027185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt ramp snow.png
+  artifactKey: Guid(0f8ea2f8a4630c74b9bbd6e266fa5c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/dirt ramp snow.png using Guid(0f8ea2f8a4630c74b9bbd6e266fa5c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bebeeea76284e6e5b9b5de2e484a748') in 0.031026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Temple Block.prefab
+  artifactKey: Guid(0d8bbc0d1157e8b4fb6347f20af70c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Temple/Temple Block.prefab using Guid(0d8bbc0d1157e8b4fb6347f20af70c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b4e41d35d8a311025b386db416a89b') in 0.021126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Props/Fence Rail.prefab
+  artifactKey: Guid(d8d5df041e323154faf07ac7ef66c513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Props/Fence Rail.prefab using Guid(d8d5df041e323154faf07ac7ef66c513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a402fbce6aae3531e71549f4b41641a') in 0.021249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Water.png
+  artifactKey: Guid(1b33bfac18e802c4b99ad6fbef09fbe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Water.png using Guid(1b33bfac18e802c4b99ad6fbef09fbe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1364a0d2c449ec3ffb8dd9c57dc25cc8') in 0.030240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down pink.png
+  artifactKey: Guid(6f10e5d18477e504ca974a177ea64eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves point down pink.png using Guid(6f10e5d18477e504ca974a177ea64eef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a68fdcda6f3b2ad6f11083f9b0909500') in 0.026806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Hill Corner Inner Green.mat
+  artifactKey: Guid(c2d81e90422889c49a23949a8093d2df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Hill Corner Inner Green.mat using Guid(c2d81e90422889c49a23949a8093d2df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c7844b1c4017e42ef7dda2d7f2aea8') in 0.027415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Bottom.png
+  artifactKey: Guid(886620a6ae3bd0f409bc70c074c6495e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Bottom.png using Guid(886620a6ae3bd0f409bc70c074c6495e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '964858b0654369e7ae2b03e06c107643') in 0.034112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ce8a7d1348176f3abe5daede1e11c26') in 0.031796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '994a49a1bdaaec636bff8f22b803885b') in 0.042716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Props/Fence Post.prefab
+  artifactKey: Guid(d1fd2795e6cd0004ca4f30241fe8a76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Props/Fence Post.prefab using Guid(d1fd2795e6cd0004ca4f30241fe8a76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74cbbf75ad1185e5d589567a0bebfb62') in 0.019456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/Temple Block Snow.mat
+  artifactKey: Guid(7c827e0ebc9428648973db96a677d390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/Temple Block Snow.mat using Guid(7c827e0ebc9428648973db96a677d390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51bcc0aeb83df967455a78929a6bdeb2') in 0.019088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Center Link.png
+  artifactKey: Guid(c00675c3d0682f9419ebc26c7ccbafea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Center Link.png using Guid(c00675c3d0682f9419ebc26c7ccbafea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fb27879763980236b291097b928ea06') in 0.028342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Outer Fall.png
+  artifactKey: Guid(9597fb8a93078f542be0ef99391295b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Outer Fall.png using Guid(9597fb8a93078f542be0ef99391295b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fd35975ef4c6b25e13c229210ad4c5a') in 0.026905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/Dirt Block.prefab
+  artifactKey: Guid(7dedb24e034cfb04f9b6f8d66b655234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Terrain/Dirt Block.prefab using Guid(7dedb24e034cfb04f9b6f8d66b655234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88877b5ecb487b4009e6b9bd05f02a9e') in 0.020153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Props/_MAST_Thumbnails/Fence Hill.png
+  artifactKey: Guid(5588f9053f10f3f49abb8cd294245c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Props/_MAST_Thumbnails/Fence Hill.png using Guid(5588f9053f10f3f49abb8cd294245c3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bdfee3d6fedce76a0a5e2b3b744958b') in 0.027172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Hill Corner Inner Fall.mat
+  artifactKey: Guid(0c7684924cf1ba741a444c1558bdd569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Hill Corner Inner Fall.mat using Guid(0c7684924cf1ba741a444c1558bdd569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21f6cf5465ac5dbb22e7cb67e81bdb0e') in 0.019765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/MAST/Scripts/GUI/Hotkeys.cs
+  artifactKey: Guid(31f0813f2f6962a48ada0434d11a3360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/MAST/Scripts/GUI/Hotkeys.cs using Guid(31f0813f2f6962a48ada0434d11a3360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ce084b8f6661aa0d0b001ea1dfc42c0') in 0.010917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Block.mat
+  artifactKey: Guid(a2fbaf827a7762144a54d7b7b7b8d4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Block.mat using Guid(a2fbaf827a7762144a54d7b7b7b8d4f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c48f031c0eb48280dda41bd4c9720243') in 0.013062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Inner Green.png
+  artifactKey: Guid(b5aff8aa39c21684b99ac87df52b09dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/_MAST_Thumbnails/Grass Hill Corner Inner Green.png using Guid(b5aff8aa39c21684b99ac87df52b09dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90c5475b597a19f0d9b2db4e7714671') in 0.032566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Block Fall.mat
+  artifactKey: Guid(7eb062286f4ba00428e254e282ff3361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Grass Block Fall.mat using Guid(7eb062286f4ba00428e254e282ff3361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf1cbaeb2a1bb4e5630f85ac6cd5e1b2') in 0.030340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Foliage/Tree Trunk Pine.mat
+  artifactKey: Guid(5e283233d7a7d654eac3e86fe6585598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Foliage/Tree Trunk Pine.mat using Guid(5e283233d7a7d654eac3e86fe6585598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82b14d34008dd930637b30a34acfd85d') in 0.027278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/crate snow.png
+  artifactKey: Guid(af79ac8a365c7574ea6f77c82053ecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/crate snow.png using Guid(af79ac8a365c7574ea6f77c82053ecfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11e6f3f796a7260eba5686dc42dff24d') in 0.032251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Orange.png
+  artifactKey: Guid(3a563e48262325a48bc86e4700a50aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Materials/_MAST_Thumbnails/Orange.png using Guid(3a563e48262325a48bc86e4700a50aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b491e387634e0c8daf85ad308a5720fa') in 0.024781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/TheKiwiCoder/BehaviourTree/UIBuilder/NodeViewStyle.uss
+  artifactKey: Guid(9d9e34dc0396ab94ab90fc5f26f12277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TheKiwiCoder/BehaviourTree/UIBuilder/NodeViewStyle.uss using Guid(9d9e34dc0396ab94ab90fc5f26f12277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cf717a307be526be768869927a53e10') in 0.024980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Water.mat
+  artifactKey: Guid(bd5fe5b2159df6945b1dff710206d655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Water.mat using Guid(bd5fe5b2159df6945b1dff710206d655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '772cbdbdf02638c75b41b128a8c95499') in 0.020791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Prefabs/Foliage/_MAST_Thumbnails/Tree Point Down.png
+  artifactKey: Guid(3913824e3f4c7f543bf568c3fcd6f44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Prefabs/Foliage/_MAST_Thumbnails/Tree Point Down.png using Guid(3913824e3f4c7f543bf568c3fcd6f44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd1912da8079f89d7a18bfaeb16f07f6') in 0.026086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Props/Fence Post Snow.mat
+  artifactKey: Guid(307e13bfdc8685d40a5f251e46483bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Props/Fence Post Snow.mat using Guid(307e13bfdc8685d40a5f251e46483bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78b35cbdd3720304a2cecbbe16d21ea2') in 0.020585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Bottom Snow.png
+  artifactKey: Guid(15af1cadb433c2b43ab65dfe37855ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Temple/_MAST_Thumbnails/Pillar Bottom Snow.png using Guid(15af1cadb433c2b43ab65dfe37855ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0104afb6a15ff2a26e87a8b5d23866f') in 0.030166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Block Snow.mat
+  artifactKey: Guid(06ac29b325944d245afefbf10b4bc61b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Terrain/Dirt Block Snow.mat using Guid(06ac29b325944d245afefbf10b4bc61b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7ad985eef6fe09e4bb1c75fd4475638') in 0.012638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FSP/Outlined Primitives/Prefabs/terrain_side.prefab
+  artifactKey: Guid(12d16d46c32b45a45af266be99c4377f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Outlined Primitives/Prefabs/terrain_side.prefab using Guid(12d16d46c32b45a45af266be99c4377f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e503017cfd51d16349f5abd47322147f') in 0.020169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves sphere green.png
+  artifactKey: Guid(c0d9b47d2f5461c4cac6fe24844041dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FSP/Modular Pixel Forest/Materials/Textures/leaves sphere green.png using Guid(c0d9b47d2f5461c4cac6fe24844041dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c319979a84c0603877bfb18b3c70021a') in 0.025840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
