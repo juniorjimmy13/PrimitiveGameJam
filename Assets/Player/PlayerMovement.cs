@@ -2,12 +2,15 @@
 
 using System;
 using UnityEngine;
+using TMPro;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour,IDamageable {
 
+    public GameManager gameManager;
     //Assingables
     public Transform playerCam;
     public Transform orientation;
+    public TextMeshProUGUI healthgui;
     
     //Other
     private Rigidbody rb;
@@ -16,6 +19,8 @@ public class PlayerMovement : MonoBehaviour {
     private float xRotation;
     private float sensitivity = 50f;
     private float sensMultiplier = 1f;
+    public float maxHealth = 100f;
+    public float currentHealth;
     
     //Movement
     public float moveSpeed = 4500;
@@ -47,13 +52,16 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 wallNormalVector;
 
     void Awake() {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>(); 
+        Time.timeScale = 1;
     }
     
     void Start() {
         playerScale =  transform.localScale;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        currentHealth = maxHealth;
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     
@@ -64,6 +72,7 @@ public class PlayerMovement : MonoBehaviour {
     private void Update() {
         MyInput();
         Look();
+        healthgui.text = "Health: " + currentHealth;
     }
 
     /// <summary>
@@ -136,7 +145,7 @@ public class PlayerMovement : MonoBehaviour {
         }
         
         // Movement while sliding
-        if (grounded && crouching) multiplierV = 0f;
+        if (grounded && crouching) multiplierV = 02f;
 
         //Apply forces to move player
         rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV);
@@ -262,9 +271,20 @@ public class PlayerMovement : MonoBehaviour {
             Invoke(nameof(StopGrounded), Time.deltaTime * delay);
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "FallGround")
+        {
+            currentHealth = 0;
+        }
+    }
 
     private void StopGrounded() {
         grounded = false;
     }
-    
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+    }
 }

@@ -61,12 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BulletScript.cs" />
+    <Compile Include="Assets\AudioInstance.cs" />
     <Compile Include="Assets\Interfaces\IDamageble.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\CheckEnemies.cs" />
     <Compile Include="Assets\ScriptableObjects\GunData.cs" />
+    <Compile Include="Assets\RollerBombs.cs" />
     <Compile Include="Assets\Player\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\slowsway.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerFire.cs" />
+    <Compile Include="Assets\Scripts\CylinderEnemy.cs" />
+    <Compile Include="Assets\EnemySpanwScript.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Player\RotateGun.cs" />
     <Compile Include="Assets\Scripts\WeaponSwitching.cs" />

@@ -14,10 +14,13 @@ public class CubeEnemy : MonoBehaviour,IDamageable
     public float bulletSpeed = 10f;
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public Material Material1;
+    public GameObject explosion;
 
     private Transform player;
     private float nextShootTime;
     private List<GameObject> bulletPool = new List<GameObject>();
+    
 
     void Start()
     {
@@ -25,10 +28,20 @@ public class CubeEnemy : MonoBehaviour,IDamageable
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         // Set initial shoot time to allow the eye monster to shoot immediately
-        nextShootTime = Time.time;
+        nextShootTime = 5;
 
         // Initialize the bullet pool
         InitializeBulletPool();
+    }
+    IEnumerator flash()
+    {
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+        Material material = meshRenderer.material;
+        meshRenderer.material = Material1;
+       
+       
+        yield return new WaitForSeconds(0.1f);
+        meshRenderer.material = material;
     }
 
     void Update()
@@ -48,10 +61,14 @@ public class CubeEnemy : MonoBehaviour,IDamageable
         // Shoot at the player if enough time has passed
         if (Time.time >= nextShootTime)
         {
+            AudioInstance.AudioInstance1.PlaySpecificAudioClip(AudioInstance.AudioInstance1.enemyfire);
             Shoot();
         }
         if(health <= 0)
         {
+            CheckEnemies.CheckEnemies1.enemies++;
+            AudioInstance.AudioInstance1.PlaySpecificAudioClip(AudioInstance.AudioInstance1.explosion);
+            GameObject expl = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }   
     }
@@ -106,6 +123,8 @@ public class CubeEnemy : MonoBehaviour,IDamageable
 
     public void TakeDamage(float damage)
     {
+        AudioInstance.AudioInstance1.PlaySpecificAudioClip(AudioInstance.AudioInstance1.enemyhit);
         health -= damage;
+        StartCoroutine(flash());
     }
 }

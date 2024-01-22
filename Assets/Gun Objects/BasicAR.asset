@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b3a5b7827e4246b84d88d813eca5f, type: 3}
   m_Name: BasicAR
   m_EditorClassIdentifier: 
-  gunType: Ar
-  damage: 20
+  gunType: AR
+  damage: 15
   fireRate: 600
   MaxDistance: 150
-  currentAmmo: 0
+  currentAmmo: 30
   maxAmmo: 100
   clipSize: 30
-  reloadTime: 2
+  reloadTime: 0.75
   reloading: 0

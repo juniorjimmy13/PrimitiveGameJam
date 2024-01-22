@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440b3a5b7827e4246b84d88d813eca5f, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
-  gunType: 
+  gunType: Shotgun
   damage: 50
   fireRate: 300
   MaxDistance: 50
   currentAmmo: 6
   maxAmmo: 100
   clipSize: 6
-  reloadTime: 4
+  reloadTime: 2
   reloading: 0

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - MAST_Holder
+  - FallGround
+  - Enemy
   layers:
   - Default
   - TransparentFX

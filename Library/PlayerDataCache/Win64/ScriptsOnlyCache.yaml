@@ -1,11 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioInstance
+    - BulletScript
+    - CheckEnemies
+    - CubeEnemy
+    - CylinderEnemy
+    - EnemySpanwScript
+    - GameManager
     - Gun
     - GunData
     - MoveCamera
     - PlayerFire
     - PlayerMovement
+    - RollerBombs
     - RotateGun
     - WeaponSwitching
     - slowsway
@@ -37,8 +45,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -56,15 +66,25 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: restart
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -95,6 +115,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -102,48 +126,76 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17246}
+      Script: {instanceID: 16686}
     - Class: 114
-      Script: {instanceID: 17670}
+      Script: {instanceID: 17268}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17690}
     - Class: 114
-      Script: {instanceID: 18416}
+      Script: {instanceID: 17892}
     - Class: 114
-      Script: {instanceID: 18614}
+      Script: {instanceID: 18182}
+    - Class: 114
+      Script: {instanceID: 18420}
+    - Class: 114
+      Script: {instanceID: 18596}
+    - Class: 114
+      Script: {instanceID: 18620}
     - Class: 114
       Script: {instanceID: 19184}
     - Class: 114
-      Script: {instanceID: 19434}
+      Script: {instanceID: 19432}
     - Class: 114
-      Script: {instanceID: 20146}
+      Script: {instanceID: 20024}
     - Class: 114
-      Script: {instanceID: 20532}
+      Script: {instanceID: 20138}
     - Class: 114
-      Script: {instanceID: 20696}
+      Script: {instanceID: 20522}
     - Class: 114
-      Script: {instanceID: 20848}
+      Script: {instanceID: 20568}
     - Class: 114
-      Script: {instanceID: 21168}
+      Script: {instanceID: 20688}
     - Class: 114
-      Script: {instanceID: 21692}
+      Script: {instanceID: 20836}
     - Class: 114
-      Script: {instanceID: 21824}
+      Script: {instanceID: 21152}
     - Class: 114
-      Script: {instanceID: 22808}
+      Script: {instanceID: 21670}
     - Class: 114
-      Script: {instanceID: 22980}
+      Script: {instanceID: 21802}
     - Class: 114
-      Script: {instanceID: 44290}
+      Script: {instanceID: 21834}
+    - Class: 114
+      Script: {instanceID: 21896}
+    - Class: 114
+      Script: {instanceID: 22780}
+    - Class: 114
+      Script: {instanceID: 857138}
+    - Class: 114
+      Script: {instanceID: 9513096}
+    - Class: 114
+      Script: {instanceID: 12671900}
+    - Class: 114
+      Script: {instanceID: 15170070}
+    - Class: 114
+      Script: {instanceID: 16187596}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -430,7 +482,7 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
-      Hash: 7486b2ddb06359d7576e24ef427224ed
+      Hash: e97d604706973068fe9e3977553cc49e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Gun
@@ -464,6 +516,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5b522180574e16c9104d7db5f7e8b700
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CubeEnemy
   - hash:
       serializedVersion: 2
       Hash: 960935b102b3064f4b924de16426e340
@@ -682,6 +740,12 @@ ScriptsOnlyBuild:
     className: MASTPrefabSettings
   - hash:
       serializedVersion: 2
+      Hash: 9ca713b62c618f96a7267629e4964fa1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BulletScript
+  - hash:
+      serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -754,7 +818,7 @@ ScriptsOnlyBuild:
     className: Core
   - hash:
       serializedVersion: 2
-      Hash: 71f2e272a39149185dfe541a39e83f40
+      Hash: de286e2778a67f9f2bf44e80af2f711f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -764,6 +828,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 53e24d00c29b615e17bb38898a56fa02
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: slowsway
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -934,6 +1004,12 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 26dd1e823ab0691e0affe2ba6e1e3eb3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WeaponSwitching
+  - hash:
+      serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -944,6 +1020,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: aaaa686c7ef20891e9e3bc6b91a0565f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CylinderEnemy
   - hash:
       serializedVersion: 2
       Hash: 1d468a6bc9f203a26169b98dacb02c8a
@@ -1078,17 +1160,35 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 53e24d00c29b615e17bb38898a56fa02
+      Hash: 8d215dfc09afa33990a676779ca2a9f0
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: slowsway
+    className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 26dd1e823ab0691e0affe2ba6e1e3eb3
+      Hash: 426a6066caafc031550f6f717dbfc517
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: WeaponSwitching
+    className: EnemySpanwScript
+  - hash:
+      serializedVersion: 2
+      Hash: f989672ea362380d5275b6d8ae213fd4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RollerBombs
+  - hash:
+      serializedVersion: 2
+      Hash: 09c408f14423a46708915a85e48e3c8a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 36200bc961bbbffce9f2dbf1e5ab8a6e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CheckEnemies
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/OMEN 16/Desktop/GameJams/Builds/PrimitiveGameJam.exe
+  playerPath: C:/Users/OMEN 16/Desktop/GameJams/Builds/PrimitiveGameJam_Qcorridor_CubeTeam/QCorridor.exe
